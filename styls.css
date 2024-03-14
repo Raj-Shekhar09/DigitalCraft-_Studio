@@ -1,0 +1,26 @@
+#frm{
+    background-color: aquamarine;
+    align-items: center;
+    height: 100%;
+    
+}
+.q{
+    display: flex;
+    align-items: center;
+}
+#frm4:hover{
+    background-color: #e03737;
+}
+#frm4{
+    margin-left: 100px;
+} 
+#frm1, #frm2, #frm3{
+    margin: 10px;
+    
+} 
+footer{
+    margin-top: 329px;
+    
+    background-color: cadetblue;
+    text-align: center;
+}

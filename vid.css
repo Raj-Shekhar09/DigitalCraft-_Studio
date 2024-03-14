@@ -1,0 +1,29 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: #8a6565;
+}
+
+#main{
+    height: 95%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 50% 50% 50%;
+ 
+}
+.elem video{
+    height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px; 
+}

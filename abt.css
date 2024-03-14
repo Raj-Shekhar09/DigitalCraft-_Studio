@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+#welcom{
+  background-color: #b42626;
+  text-align: center;
+}
+p{
+    margin: 20px;
+}
+.h9{
+    color: darkorchid;
+}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+}
