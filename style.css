@@ -30,7 +30,34 @@ html, body{
   width: 30px;
   background-color: black;
   rotate: 45deg;
+  animation-name: idea;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
 }
+@keyframes idea {
+  0%{
+    background-color: black;
+    rotate: 360deg; 
+  }
+  50%{
+    rotate: 315deg;
+top: 40%;
+left: 16%;
+rotate: 315deg;
+
+  }
+  100%{
+  left: 41%;
+  rotate: 315deg;
+  background-color: #b68080;
+  }
+  
+}
+
 #arrow:hover{
 background-color: #c8134d;
 }
